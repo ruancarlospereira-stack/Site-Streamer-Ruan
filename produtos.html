@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - Ruan Carlos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="logo">
+                <h1>Ruan Carlos</h1>
+                <span>Streamer da Twitch</span>
+            </div>
+            <nav>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="jogos.html">Jogos</a></li>
+                    <li><a href="produtos.html" class="active">Produtos</a></li>
+                    <li><a href="horarios.html">Horários</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="perfil.html">Perfil</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="pagina-interna">
+        <div class="container">
+            <h1>Itens para Venda</h1>
+            <div class="conteudo-pagina">
+                <p class="intro-texto">Aqui você encontra itens exclusivos dos jogos que eu transmissor. Todos os itens são garantidos e negociados com segurança.</p>
+                
+                <div class="filtros-produtos">
+                    <button class="filtro-btn active" data-filter="todos">Todos</button>
+                    <button class="filtro-btn" data-filter="grow-garden">Grow Garden</button>
+                    <button class="filtro-btn" data-filter="steal-brainrot">Steal Brainrot</button>
+                    <button class="filtro-btn" data-filter="blox-fruits">Blox Fruits</button>
+                </div>
+                
+                <div class="produtos-grid">
+                    <div class="produto-item" data-categoria="grow-garden">
+                        <div class="produto-imagem">
+                            <div class="imagem-placeholder">
+                                <span>Grow Garden Item</span>
+                            </div>
+                        </div>
+                        <div class="produto-info">
+                            <h3>Pacote de Sementes Raras</h3>
+                            <p>Sementes exclusivas para cultivar plantas raras no Grow Garden.</p>
+                            <div class="produto-preco">R$ 15,00</div>
+                            <button class="btn-comprar">Comprar Agora</button>
+                        </div>
+                    </div>
+                    
+                    <div class="produto-item" data-categoria="grow-garden">
+                        <div class="produto-imagem">
+                            <div class="imagem-placeholder">
+                                <span>Grow Garden Item</span>
+                            </div>
+                        </div>
+                        <div class="produto-info">
+                            <h3>Fertilizante Premium</h3>
+                            <p>Acelere o crescimento das suas plantas com este fertilizante especial.</p>
+                            <div class="produto-preco">R$ 12,00</div>
+                            <button class="btn-comprar">Comprar Agora</button>
+                        </div>
+                    </div>
+                    
+                    <div class="produto-item" data-categoria="steal-brainrot">
+                        <div class="produto-imagem">
+                            <div class="imagem-placeholder">
+                                <span>Steal Brainrot Item</span>
+                            </div>
+                        </div>
+                        <div class="produto-info">
+                            <h3>Arma Personalizada</h3>
+                            <p>Arma exclusiva com design único para Steal Brainrot.</p>
+                            <div class="produto-preco">R$ 25,00</div>
+                            <button class="btn-comprar">Comprar Agora</button>
+                        </div>
+                    </div>
+                    
+                    <div class="produto-item" data-categoria="steal-brainrot">
+                        <div class="produto-imagem">
+                            <div class="imagem-placeholder">
+                                <span>Steal Brainrot Item</span>
+                            </div>
+                        </div>
+                        <div class="produto-info">
+                            <h3>Pacote de Skins</h3>
+                            <p>Coleção de skins raras para personalizar seu personagem.</p>
+                            <div class="produto-preco">R$ 18,00</div>
+                            <button class="btn-comprar">Comprar Agora</button>
+                        </div>
+                    </div>
+                    
+                    <div class="produto-item" data-categoria="blox-fruits">
+                        <div class="produto-imagem">
+                            <div class="imagem-placeholder">
+                                <span>Blox Fruits Item</span>
+                            </div>
+                        </div>
+                        <div class="produto-info">
+                            <h3>Fruta Rara Blox</h3>
+                            <p>Adquira poderes especiais com esta fruta rara do Blox Fruits.</p>
+                            <div class="produto-preco">R$ 30,00</div>
+                            <button class="btn-comprar">Comprar Agora</button>
+                        </div>
+                    </div>
+                    
+                    <div class="produto-item" data-categoria="blox-fruits">
+                        <div class="produto-imagem">
+                            <div class="imagem-placeholder">
+                                <span>Blox Fruits Item</span>
+                            </div>
+                        </div>
+                        <div class="produto-info">
+                            <h3>Espada Lendária</h3>
+                            <p>Espada poderosa com dano aumentado para Blox Fruits.</p>
+                            <div class="produto-preco">R$ 22,00</div>
+                            <button class="btn-comprar">Comprar Agora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Ruan Carlos</h3>
+                    <p>Streamer da Twitch e aluno do Colégio Estadual Professor Ricardo Lunardelli - Turma de Robótica</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Conecte-se</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Twitch</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Discord</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Ruan Carlos - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
